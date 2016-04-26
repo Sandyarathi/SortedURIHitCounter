@@ -1,4 +1,4 @@
-package HC_Sandya036;
+package HC_Sandy036;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
-public class SortMapper_Sandya036  extends Mapper<Text, Text, Text, IntWritable> {
+public class SortMapper_Sandy036  extends Mapper<Text, Text, Text, IntWritable> {
       
 	private final static IntWritable one = new IntWritable(1);
     public void map(Text key, IntWritable value, Context context) throws IOException, InterruptedException {

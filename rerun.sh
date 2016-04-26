@@ -1,10 +1,10 @@
 #!/bin/bash
 
-BASEDIR=/Sandy036LAB3/URIHitCounter
+BASEDIR=/input/
 
 export CLASSPATH=$(hadoop classpath)
 export HADOOP_CLASSPATH=$CLASSPATH
 
 rm -rf $BASEDIR/OUT
-hadoop jar HC_Sandya036.jar HC_Sandya036.HCDriver_Sandya036; $BASEDIR/DATA/ $BASEDIR/OUT 
+hadoop jar HC_Sandy036.jar HC_Sandy036.HCDriver_Sandy036; input/ $BASEDIR/OUT 
 
